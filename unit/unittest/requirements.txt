@@ -1,0 +1,12 @@
+During checkout, the app returns a receipt that includes a subtotal, tax, and total.
+The tax rate is 13%.
+
+               Test Cases
+----------------------------------------
+1. Subtotal = sum of every price
+2. Tax = 13% subtotal
+3. Total = subtotal + tax
+---------------------------------------
+    import java.util.Locale;
+
+    DecimalFormat formatter = new DecimalFormat("#.##", new DecimalFormatSymbols(Locale.ENGLISH));

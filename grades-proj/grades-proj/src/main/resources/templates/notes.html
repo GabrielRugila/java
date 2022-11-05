@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <title>Notes</title>
+    <style>
+      *::selection {
+        background-color: #f3e3d5;
+        color: #02ef63;
+      }
+
+      body {
+        background-color: #151515;
+      }
+      .head {
+        display: flex;
+        justify-content: center;
+        color: #325efc;
+      }
+      .notes-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Notes</h1>
+    </div>
+    <div class="notes-list">
+      <h2>th:text="${note.title}"</h2>
+      <p>th:text="${note.topic}"</p>
+      <p>th:text="${note.content}"</p>
+    </div>
+  </body>
+</html>

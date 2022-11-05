@@ -1,0 +1,26 @@
+/*
+Palletes
+#151515
+#02ef63
+#0e6632
+#325efc
+#f3e3d5
+*/
+*::selection {
+  background-color: #f3e3d5;
+  color: #02ef63;
+}
+
+body {
+  background-color: #151515;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  color: #325efc;
+}
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
